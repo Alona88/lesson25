@@ -1,0 +1,685 @@
+{
+  "id": "95b24aa7-4601-484c-a1d6-8f074aa079a2",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://rozetka.com.ua/",
+  "tests": [{
+    "id": "d6346790-a787-476a-afab-1e2eec5b45ea",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "48748bcb-bc26-4c49-b846-4c41587ab025",
+    "name": "rozetka.com.ua/полный",
+    "commands": [{
+      "id": "2f1a14fa-4062-431f-9e29-067bf64aac0f",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48597fb4-da81-45f1-8cf3-054853a2a5c5",
+      "comment": "",
+      "command": "store",
+      "target": "iphone14",
+      "targets": [],
+      "value": "searchText"
+    }, {
+      "id": "4997784d-1eb4-4a1e-8ce5-14440315a65c",
+      "comment": "",
+      "command": "echo",
+      "target": "${searchText}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c9bec67-08f3-4fce-829a-bb8022748de4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "710x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "182e90a1-9efc-4e93-8725-e07f12d3c528",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1212a747-1ff6-472c-8787-bdce72054977",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${searchText}"
+    }, {
+      "id": "15294f01-5f6c-490e-84d7-7f2e76f8bdf0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7af5a87b-8d77-4ee7-b761-d05edba48f28",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(@href, 'https://rozetka.com.ua/apple-iphone-14-128gb-midnight/p352486566/')]",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/apple-iphone-14-128gb-midnight/p352486566/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ed9207f-eb57-4cb3-8894-8ce02ec69df6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43f69475-2b47-460e-ba32-c66c0e233bcc",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,495)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "310ae60f-6fae-427d-803a-99c5cc107ec4",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-carriage__buy-button use",
+      "targets": [
+        ["css=.product-carriage__buy-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8847cae2-db4d-4544-9718-665823a9d107",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-carriage__buy-button use",
+      "targets": [
+        ["css=.product-carriage__buy-button use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "90443ef1-c4b0-46ac-8bfa-4b4ef5c3fc4d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-carriage__buy-button .buy-button__label",
+      "targets": [
+        ["css=.product-carriage__buy-button .buy-button__label", "css:finder"],
+        ["xpath=//div[2]/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9629d68e-063d-4e35-a141-14caa7e0c85f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-carriage__buy-button .buy-button__label",
+      "targets": [
+        ["css=.product-carriage__buy-button .buy-button__label", "css:finder"],
+        ["xpath=//div[2]/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb57daca-82aa-49e1-90c5-20140742e956",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.product-carriage__buy-button .buy-button__label",
+      "targets": [
+        ["css=.product-carriage__buy-button .buy-button__label", "css:finder"],
+        ["xpath=//div[2]/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "667067de-888d-49df-9cae-acd7ec4dce98",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Оформить заказ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "761bda58-bcc6-4938-98ae-3fb03914ec2e",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Оформить заказ",
+      "targets": [],
+      "value": "Оформить заказ "
+    }, {
+      "id": "1947654d-209d-4e43-970d-cdc10ed65f8d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[contains(@href, 'https://rozetka.com.ua/apple-iphone-14-128gb-midnight/p352486566/')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04c1041f-aa89-4d06-ba05-87edbeaaabdf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.cart-services",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a447dd84-361e-4714-9815-ce0a18f0fe12",
+    "name": "foxtrot.com.ua/",
+    "commands": [{
+      "id": "439f4fa4-5e46-4d8a-9ae1-ceed44bf9a8e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.foxtrot.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfde061b-f305-4b4a-bb42-cd862e70bad6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "710x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7b7077bc-30f1-49e7-b0a6-0c12ff0bb10a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eac9bd50-53d7-4c55-955d-e532e1903300",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6507f383-52f1-4feb-ac0a-0ecc808ee6e6",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone13"
+    }, {
+      "id": "bb211000-cbfd-41b1-954f-29409ce46ee3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "a50b794f-6461-4ee8-ac7d-9e30af355a1e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.listing-categories__item:nth-child(1) .align-self-center",
+      "targets": [
+        ["css=.listing-categories__item:nth-child(1) .align-self-center", "css:finder"],
+        ["xpath=//img[contains(@src,'https://files.foxtrot.com.ua/Uploads/interlink_60_35.jpg')]", "xpath:img"],
+        ["xpath=//div[@id='categories-list']/div/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b8b2b19-b7b6-41cf-a73a-8d6f5f94d7d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=article:nth-child(1) > .card .align-self-center",
+      "targets": [
+        ["css=article:nth-child(1) > .card .align-self-center", "css:finder"],
+        ["xpath=(//img[@alt='Смартфон APPLE iPhone 14 128GB Midnight'])[3]", "xpath:img"],
+        ["xpath=//div[@id='listing-page-container']/div/div/div[3]/div/div/div[2]/section/article/div/div/div[2]/a/picture/img", "xpath:idRelative"],
+        ["xpath=//div/div[2]/a/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a963dae3-23f8-4611-adb9-e927bb3d53f3",
+    "name": "foxtrot.com.ua/2",
+    "commands": [{
+      "id": "fa1815fe-f3af-4fda-950e-fb54120dd014",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.foxtrot.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c82e5dfb-36b7-497d-a11b-0d0706a48650",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "710x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef2f9284-a21f-4363-a40a-8e52009134ca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-hover-catalog",
+      "targets": [
+        ["css=.js-hover-catalog", "css:finder"],
+        ["xpath=//div[@id='js-fix-header']/div/div/nav/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[20]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3df5ec14-dd3c-447f-86f7-f4ad3da6564b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-hover-catalog",
+      "targets": [
+        ["css=.js-hover-catalog", "css:finder"],
+        ["xpath=//div[@id='js-fix-header']/div/div/nav/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:void(0)')])[20]", "xpath:href"],
+        ["xpath=//nav/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a7fdb58-cf77-4dc3-9b62-46fe67c891ba",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.align-self-center:nth-child(5)",
+      "targets": [
+        ["css=.align-self-center:nth-child(5)", "css:finder"],
+        ["xpath=//img[@alt='20230316_20230405_Foxy_depilation (header)']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16cb3bd2-6680-4cd0-9e08-acce17dd07f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56828330-2f47-46e5-86ef-1cf8b006d135",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsung"
+    }, {
+      "id": "5872271a-9fd8-4461-9163-945f5ead0bf9",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d82b7376-26e9-4ea9-ab35-0a6fbc72ead9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Холодильник SAMSUNG RR39M7140SA/UA",
+      "targets": [
+        ["linkText=Холодильник SAMSUNG RR39M7140SA/UA", "linkText"],
+        ["css=.desc-loaded .card__title", "css:finder"],
+        ["xpath=//a[contains(text(),'Холодильник SAMSUNG RR39M7140SA/UA')]", "xpath:link"],
+        ["xpath=//section[@id='holodilniki_samsung']/div[2]/div/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ru/shop/holodilniki_samsung_rr39m7140sa-ua.html')])[2]", "xpath:href"],
+        ["xpath=//section/div[2]/div/div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Холодильник SAMSUNG RR39M7140SA/UA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c64effcd-7538-4d49-ad17-b26e4b9575a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40653355-340b-4ebc-8a22-e0bc3b390fcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-box__main-buy__button",
+      "targets": [
+        ["css=.product-box__main-buy__button", "css:finder"],
+        ["xpath=//div[@id='product-box-content']/div[2]/div/div[3]/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d558b3e7-5a5d-4272-be5d-ce52c518334f",
+    "name": "foxtrot.com.ua/3",
+    "commands": [{
+      "id": "4091ad01-9347-43c9-a7a4-4fc3ac43756d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.foxtrot.com.ua/ru/search?query=%D1%84%D0%B5%D0%BD%20%D1%80%D0%BE%D0%B2%D0%B5%D0%BD%D1%82%D0%B0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6eb3a05f-af23-4f36-b2bf-615251a6b13b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "710x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "061ab832-8ed7-4506-be07-e9a137ea904b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5f31f9e-49f4-4498-bc72-53cf74e9227f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1577d4b-8a6b-461f-a4d1-4b71f31d55a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "57b4bf08-e554-465c-b2b0-02106081f09b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d66997f-857e-48a5-b021-94ed75f10842",
+      "comment": "",
+      "command": "type",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "фен ровента"
+    }, {
+      "id": "4561dae0-3ed4-455a-851a-45739fb620a0",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.header-search__field",
+      "targets": [
+        ["css=.header-search__field", "css:finder"],
+        ["xpath=//input[@type='search']", "xpath:attributes"],
+        ["xpath=//div[@id='js-fix-header']/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f2875c22-a3a4-4fda-9822-a316983dd56a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button:nth-child(2) > p",
+      "targets": [
+        ["css=.button:nth-child(2) > p", "css:finder"],
+        ["xpath=//main[@id='product-data-container']/div[2]/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3096bdc5-bd83-4716-8968-11b87265d649",
+    "name": "https://rozetka.com.ua/2",
+    "commands": [{
+      "id": "ebe16383-f226-4cfa-bf0b-880c2e926b45",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01c490f1-4d35-4a9a-b899-a915501d12d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "710x685",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d78b78d-74ac-4a9c-b2d3-9e2cfc7ca793",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d4a20d0-1320-4d38-adba-b514d4c6d4cf",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f01e0ed-20ea-4eed-905f-916ed426bafd",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "samsungs8"
+    }, {
+      "id": "9c757679-a89f-4e8b-8a0e-034136307720",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.search-form__input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ff9036ca-5f6f-4a44-b901-763b8f307d40",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.catalog-grid__cell:nth-child(1) .ng-lazyloaded:nth-child(1)",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .ng-lazyloaded:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Телевизор Samsung UE43T5300AUXUA ']", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d0819c2-b207-4200-83d3-7d4a0f5399b6",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.goods-tile__picture > .display-none:nth-child(1)",
+      "targets": [
+        ["css=.goods-tile__picture > .display-none:nth-child(1)", "css:finder"],
+        ["xpath=//img[@alt='Телевизор Samsung UE43T5300AUXUA ']", "xpath:img"],
+        ["xpath=//div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b3290e1-2446-413a-9c99-39f72761bea4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.catalog-grid__cell:nth-child(1) .goods-tile__picture",
+      "targets": [
+        ["css=.catalog-grid__cell:nth-child(1) .goods-tile__picture", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/samsung_ue43t5300auxua/p206672437/')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d67f1d0d-6f8b-480b-88ba-1dd86667de7c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,200)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "935aeb8f-4a4a-4c97-a1b2-36562a12ac40",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2cac5a15-84c3-44fa-a938-4ba3d639edc4",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,13)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02dc8f5d-6c06-46c9-a4f4-3fba0ac27442",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-carriage__buy-button .buy-button__label",
+      "targets": [
+        ["css=.product-carriage__buy-button .buy-button__label", "css:finder"],
+        ["xpath=//div[2]/div/rz-product-buy-btn/app-buy-button/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e80e7362-3b96-4108-a672-8d2bfbeb2afa",
+    "name": "rozetka.com.ua/3",
+    "commands": [{
+      "id": "2c37ae3d-33b0-47fa-a30f-a0d71eb2ac2b",
+      "comment": "",
+      "command": "open",
+      "target": "https://rozetka.com.ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b435a94-f08e-4f07-b3e0-ce8ff7816a92",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=UA",
+      "targets": [
+        ["linkText=UA", "linkText"],
+        ["css=.lang__item:nth-child(2) > .lang__link", "css:finder"],
+        ["xpath=//a[contains(text(),'UA')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://rozetka.com.ua/ua/')]", "xpath:href"],
+        ["xpath=//rz-lang/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'UA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0941d83-3519-437b-aa85-e351a3d96d4a",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.menu-categories__item:nth-child(12) font > font",
+      "targets": [
+        ["css=.menu-categories__item:nth-child(12) font > font", "css:finder"],
+        ["xpath=//div/ul/li[12]/a/font/font", "xpath:position"]
+      ],
+      "value": "5000"
+    }, {
+      "id": "74ba98b1-53dc-465c-8ea2-73efa52bcc3f",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.menu-categories__item:nth-child(12) font > font",
+      "targets": [
+        ["css=.menu-categories__item:nth-child(12) font > font", "css:finder"],
+        ["xpath=//div/ul/li[12]/a/font/font", "xpath:position"]
+      ],
+      "value": "Товары для детей"
+    }, {
+      "id": "7df189f8-61c4-43fc-a37e-e4a82692025d",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5de2528d-cc4d-4fe9-945b-16afde0d32ff",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d6346790-a787-476a-afab-1e2eec5b45ea"]
+  }],
+  "urls": ["https://www.ctrs.com.ua/", "https://rozetka.com.ua/", "https://makeup.com.ua/", "https://www.foxtrot.com.ua/"],
+  "plugins": []
+}
